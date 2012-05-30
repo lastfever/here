@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sample CSS Layout</title>
+    <link href="main.css" rel="stylesheet">
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <div id="nav" class="round">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <img src="rails.png" alt="rails" class="round"/>
+
+        <div class="logotype round">My Sample App</div>
+      </div>
+      <div id="section" class="round">
+        <h1>Text content</h1>
+        <p>
+          Lorem ipsum dolor sit amet, <b>consectetuer adipiscing</b> elit. Duis tempus. Aenean eu orci. Praesent vitae nunc rutrum felis eleifend aliquam. Nulla venenatis posuere dolor. Fusce feugiat. Curabitur et magna. Quisque leo. Aenean cursus malesuada pede.
+        </p>
+
+        <p><a href="#">Normal Link</a></p>
+
+        <p class="special">Sed sollicitudin tristique odio. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+
+        <h2>Form example</h2>
+    
+        <form action="http://echodata.heroku.com">
+          First name: <input type="text" name="firstname" /><br/>
+          Last name: <input type="text" name="lastname" /><br/>
+          Password: <input type="password" name="pwd" /><br/>
+          <input type="radio" name="sex" value="male" /> Male
+          <input type="radio" name="sex" value="female" /> Female <br/>
+          <input type="checkbox" name="has_bike" value="yes" /> I have a bike<br/>
+          <input type="checkbox" name="has_car" value="yes" /> I have a car<br/> 
+          <input type="submit" value="Submit" /><br/>
+        </form>
+        <h3>Table example</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Price</th>
+              <th>Amount</th>
+            </tr>
+          </thead>
+          <tfoot>
+            <tr>
+              <th>Total</th>
+              <td>900</td>
+              <td>800 000</td>
+            </tr>
+          </tfoot>
+          <tbody>
+            <tr class="odd">
+              <td>Intel</td>
+              <td>200</td>
+              <td>230 000</td>
+            </tr>
+            <tr class="even">
+              <td>Google</td>
+              <td>100</td>
+              <td>170 000</td>
+            </tr>
+            <tr class="odd">
+              <td>Apple</td>
+              <td>600</td>
+              <td>400 000</td>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+      <div id="footer" class="round">
+        <h3> Use this template as you like </h3>
+      </div>
+    </div>
+  </body>
+</html>
